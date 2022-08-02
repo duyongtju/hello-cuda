@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 IMG=${IMG:-cuda10.1-env:test}
 
