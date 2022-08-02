@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  env:
+    build: .
+    container_name: linux-env
+    ports:
+      - "8278:22"
+      - "8730:873"
+    volumes:
+      - /home/duyong:/home/duyong
+    cap_add:
+      - ALL
